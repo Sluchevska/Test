@@ -13,20 +13,20 @@ export default function Profile({name, tag, location, avatar, stats}) {
       className={s.avatar}
     />
     <p className={s.name}>{name}</p>
-    <p className="tag">{tag}</p>
+    <p className={s.tag}>{tag}</p>
     <p className="location">{location}</p>
   </div>
 
-  <ul className="stats">
-    <li>
+  <ul className={s.stats}>
+    <li className={s.stats_item}>
       <span className="label">Followers </span>
       <span className="quantity">{stats.followers}</span>
     </li>
-    <li>
+    <li className={s.stats_item}>
       <span className="label">Views </span>
       <span className="quantity">{stats.views}</span>
     </li>
-    <li>
+    <li className={s.stats_item}>
       <span className="label">Likes </span>
       <span className="quantity">{stats.likes}</span>
     </li>
