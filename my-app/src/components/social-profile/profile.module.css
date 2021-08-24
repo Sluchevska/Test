@@ -1,0 +1,22 @@
+.name {
+  color: blue;
+  font-size: 26px;
+  font-weight: 600;
+}
+.profile {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid violet;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+}
+
+.avatar {
+  width: 200px;
+  height: 250px;
+}
+
+.description {
+  background-color: thistle;
+}
