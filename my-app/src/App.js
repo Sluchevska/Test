@@ -1,6 +1,5 @@
 import FriendList  from './components/friend-list/FriendList';
 import './App.css';
-
 import user from './components/social-profile/user.json';
 import Profile from './components/social-profile/Profile';
 import Statistics from './components/statistics/statistics';
