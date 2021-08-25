@@ -2,3 +2,29 @@
   color: red;
   font-size: 20px;
 }
+
+.item {
+  border: 1px solid violet;
+  list-style: none;
+  box-shadow: 2px 4px 5px thistle;
+  width: 300px;
+  padding-top: 15px;
+  margin: 10px;
+  text-align: center;
+}
+
+.online {
+  background-color: green;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.offline {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
