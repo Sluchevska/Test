@@ -16,6 +16,7 @@
 
 .online {
   background-color: green;
+  display: block;
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -24,6 +25,7 @@
 
 .offline {
   background-color: red;
+  display: block;
   width: 20px;
   height: 20px;
   border-radius: 50%;
