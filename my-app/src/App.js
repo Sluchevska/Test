@@ -10,6 +10,7 @@ import transactions from './components/transaction-history/transactions.json'
 function App() {
   return (
     <div>
+      <ul></ul>
      
             <Profile
   name={user.name}
