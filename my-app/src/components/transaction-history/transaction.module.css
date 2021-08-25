@@ -12,6 +12,7 @@ th {
   color: rgb(51, 2, 51);
   margin-left: 25px;
   box-shadow: 4px 5px 8px rgb(85, 42, 85);
+  margin-top: 40px;
 }
 
 tr:nth-child(even) {

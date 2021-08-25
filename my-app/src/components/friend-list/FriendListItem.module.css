@@ -1,22 +1,29 @@
 .name {
-  color: red;
+  color: rgb(122, 3, 116);
   font-size: 20px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.avatar {
+  margin-left: 20px;
 }
 
 .item {
+  display: flex;
   background-color: seashell;
   border: 1px solid violet;
   list-style: none;
   box-shadow: 4px 5px 8px rgb(240, 64, 240);
   width: 300px;
-  padding-top: 15px;
+  padding: 15px;
   margin: 10px;
-  text-align: center;
 }
 
 .online {
   background-color: green;
-  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -25,7 +32,8 @@
 
 .offline {
   background-color: red;
-  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
   width: 20px;
   height: 20px;
   border-radius: 50%;
